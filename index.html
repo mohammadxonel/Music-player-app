@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music player</title>
     <link rel="icon" type="image/png" href="./Logo/Project logo.png" />
 
-</head>
+ </head>
 
-<body>
+ <body>
 
     <dir class="player-container">
         <!-- Song -->
-        <div class="img-container"
-        <img src="./Music/Marvel Theme.png" alt="Album Art">
+        <div class="img-container" <img src="./Music/Marvel Theme.png" alt="Album Art">
     </dir>
     <h2 id="title">Marvel Studios</h2>
     <h3 id="artist">Marvel Theme</h3>
@@ -25,11 +23,19 @@
     <div class="progress-container" id="progress-container">
         <div class="progress" id="progress"></div>
         <div class="duration-wrapper">
-          <span id="current-time">0:00</span>
-          <span id="duration">1:27</span>
+            <span id="current-time">0:00</span>
+            <span id="duration">1:27</span>
         </div>
-      </div>
+    </div>
 
-</body>
+    <!-- Controls -->
+    <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+    </div>
+    </div>
+
+ </body>
 
 </html>
