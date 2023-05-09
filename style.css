@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+@keyframes background {
+  100% {
+    background-size: 4000px 1000px;
+  }
+}
