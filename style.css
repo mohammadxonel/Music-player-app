@@ -89,3 +89,29 @@ h3 {
   justify-content: space-between;
   color: rgb(220, 0, 0);
 }
+
+/* Controls */
+.player-controls {
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fas {
+  font-size: 30px;
+  color: rgb(220, 0, 0);
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fas:hover {
+  filter: brightness(80%);
+}
+
+.main-button {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
