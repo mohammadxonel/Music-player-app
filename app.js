@@ -30,6 +30,12 @@ const songs = [{
     artist: "The Rubberband Man",
  },
 
+ {
+    name: "song-4",
+    displayName: "De La Soul",
+    artist: "The Magic Number",
+ },
+
 ];
 
 // Check if Playing //
