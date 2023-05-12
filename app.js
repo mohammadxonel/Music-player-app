@@ -19,3 +19,15 @@ const songs = [
       artist: "Marvel Theme",
     }
 ];
+
+// Check if Playing //
+let isPlaying = false;
+
+// Play //
+function playSong() {
+  isPlaying = true;
+  playBtn.classList.replace("fa-play", "fa-pause");
+  playBtn.setAttribute("title", "Pause");
+  music.play();
+}
+
