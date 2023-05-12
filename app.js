@@ -24,6 +24,12 @@ const songs = [{
     artist: "The weeknd",
  },
 
+ {
+    name: "song-3",
+    displayName: "The Spinners",
+    artist: "The Rubberband Man",
+ },
+
 ];
 
 // Check if Playing //
