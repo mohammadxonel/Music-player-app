@@ -9,3 +9,13 @@ const progressContainer = document.getElementById("progress-container");
 const prevBtn = document.getElementById("prev");
 const playBtn = document.getElementById("play");
 const nextBtn = document.getElementById("next");
+
+
+// Music //
+const songs = [
+    {
+      name: "song-1",
+      displayName: "Marvel Studios",
+      artist: "Marvel Theme",
+    }
+];
