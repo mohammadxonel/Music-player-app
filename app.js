@@ -16,7 +16,15 @@ const songs = [{
     name: "song-1",
     displayName: "Marvel Studios",
     artist: "Marvel Theme",
-}];
+ },
+
+ {
+    name: "song-2",
+    displayName: "pray for me the weeknd",
+    artist: "The weeknd",
+ },
+
+];
 
 // Check if Playing //
 let isPlaying = false;
